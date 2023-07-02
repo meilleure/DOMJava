@@ -1,0 +1,69 @@
+input{
+  padding-left: 2px;
+  margin-right: 20px;
+
+}
+
+#style{
+ padding-top: 10px;
+ width: 50%;
+ padding-bottom: 10px;
+ margin-left: 50px;
+ margin-top: 50px;
+}
+
+#firstname{
+margin-left: 49px;
+padding-right: 80px;
+}
+
+#lastname{
+margin-left: 50px;
+padding-right: 80px;
+}
+
+#Email{
+margin-left: 80px;
+padding-right: 80px;
+
+}
+
+#select {
+padding-left: 10px;
+margin-left: 2px ;
+margin-right: 3px;
+
+}
+
+select{
+ margin-left: 75px;
+ padding-right: 80px;
+}
+
+#gender{
+margin-left: 70px;
+}
+
+.form-action-buttons{
+ margin-left: 200px;
+ padding-left: 5px;	
+ padding-right: 5px;
+}
+
+table{
+	border-collapse: collapse;
+	width:50%;
+	margin-left: 50px;
+	background-color: #D3D3D3;
+	margin-top: 40px;
+	overflow-wrap:  break-word;
+}
+
+
+table, th, td{
+  border : 2px solid #808080;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px; 
+}

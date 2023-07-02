@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>DOM</title>
+     <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<!------ Code to get patient details  --------->
+<table>
+    <tr>
+        <td>
+<form onsubmit = "event.preventDefault();onFormSubmit();" autocomplete="off" id="main">
+ <div>
+ <label>First Name: </label>
+ <input type ="text" name="firstname" id ="firstname" required>
+ </div>
+
+ <br>
+
+ <div>
+ <label>Last Name: </label>
+ <input type ="text" name="lastname" id ="lastname" required>
+ </div>
+
+  <br>
+
+ <div>
+ <label>Email: </label>
+ <input type ="email" name="Email" id ="Email" required>
+ </div>
+
+  <br>
+
+ <div>
+ <label>Gender: </label>
+ <select name="gender" id="gender" required>    
+       <option value = "female">Female</option>
+       <option value = "male">Male</option>
+ </select> 
+ </div>
+
+ <br>
+
+<div name="select"> 
+<input type = "checkbox" id="select">Recently came in Nigeria within the last 14 days?
+
+</div>
+
+<br>
+
+<div class = "form-action-buttons" id="submitBtn">
+<input type="submit" value = "Submit"> 
+</div>
+
+<div class = "form-action-buttons" id="updateBtn">
+<input type="submit" value = "Update"> 
+</div>
+
+</form>
+</td>
+</tr>
+</table>
+
+<table class = "list" id ="display">
+   <thead>
+    <tr>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>Email Addresse</th>
+    <th>Gender</th>
+    <th>Came to Nigeria <br/ > within the last 14<br/ >days?</th>
+    <th></th>
+</tr>
+</thead>
+
+<tbody>
+    
+</tbody>
+
+</table>
+
+	<script src="app.js"></script>
+
+</body>
+
+
+</html>
